@@ -1,0 +1,107 @@
+        body{
+            background: linear-gradient(rgb(75, 72, 72),rgb(184, 181, 181));
+            /*background-repeat: no-repeat;*/
+            background-size: contain;
+            margin-right: 20%;            
+            margin-left: 20%;
+        }
+        
+        main{
+            border-radius: 20px;
+            background-color: rgb(32, 32, 32);
+            display: flex;
+            /*flex-wrap: wrap;*/
+            flex-direction: column;
+            overflow: hidden;
+
+            min-width: 800px;
+        }
+
+        header{
+            border-radius: 0px;
+            background-color: rgb(212, 79, 79);
+            margin-top: 5px;
+            display: flex;
+            align-items : center;
+            justify-content : space-between; 
+            overflow: auto;
+            /*flex-wrap: wrap;*/
+            
+            padding-left : 5%;
+            padding-right : 2%;
+        }
+                
+        .logo{
+            padding-right: 100px; 
+        }
+
+        header nav {
+            list-style: none;
+            display: flex;
+
+            /*border : 2px dashed black;*/
+        }
+
+
+        header nav a{
+            text-decoration : none;
+            color: rgb(32, 32, 32);
+            margin-left: 10px;
+            padding: 10px;
+            border : 2px dashed rgb(32, 32, 32);
+            border-radius: 5px;
+
+            transition : linear 0.2s;
+
+            white-space: nowrap;
+        }
+
+        header nav a:hover{
+            background-color: black;
+            color: white;
+
+            transform : rotate(-8deg) scale(1.2,1.2);
+            /*transform: scale(1.2,1.2);*/
+        }
+
+        article{
+            background-color: rgb(59, 59, 59);
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content : space-around; 
+
+            /*border : 2px solid rgb(37, 4, 4);*/
+            margin-top : 5px;
+        }
+
+        section{
+            /*max-width : 400px;
+            min-width: 200px;*/
+            width : 50%;
+            height: auto;
+            padding : 5%;
+            overflow: auto;
+            /*border : 2px solid black;*/
+            /*display: flex;*/
+           
+            text-align: center;
+            color : white;
+        }   
+
+        h1{
+            font-size: 30px;
+        }
+
+        h2{
+            font-size: 20px;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+
+
+

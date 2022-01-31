@@ -1,0 +1,22 @@
+$lava : rgb(230, 96, 19); 
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    background-color: $lava;
+    width : 100%;
+    height: 500px;
+
+    .top-nav{
+        background-color: blue;
+        width:100px;
+        height:100px;
+    }
+
+    .navbar{
+        background-color: green;
+        width:80%;
+        height:100px;
+    }
+}
